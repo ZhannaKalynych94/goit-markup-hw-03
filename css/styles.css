@@ -3,11 +3,32 @@ body{
     color: #434455;
     background-color: #ffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
 a{
     text-decoration: none;
 }
 ul, ol{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -20,7 +41,25 @@ ul, ol{
     overflow: hidden;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right:15px ;
+  margin: 0 auto;
+}
+.header-container{
+    display: flex;   
+}
 
+.header-navigation{
+    display: flex;
+}
+
+
+
+.header-contact-list {
+    display: flex;
+}
 
 /*===========HEADER===============*/
 
@@ -44,6 +83,15 @@ ul, ol{
         text-transform: uppercase;
         color: #2e2f42;
 }
+
+.header-menu-list{
+    display: flex;
+}
+
+.header-contact-list{
+    display: flex;
+}
+
 
 .header-menu-link{
     font-family: "Roboto", sans-serif;
