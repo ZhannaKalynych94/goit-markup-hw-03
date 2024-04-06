@@ -322,7 +322,7 @@ margin-bottom: 8px
 }
 
 
-/*===================================*/
+/*=============Portfolio======================*/
 
 
 
@@ -357,6 +357,9 @@ font-family: "Roboto", sans-serif;
     margin-bottom: 8px;
     gap: 24px;
    
+}
+.port-list-list{
+    width: calc((100% - 48px) / 3);
 }
 
 
