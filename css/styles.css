@@ -321,7 +321,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .portfolio-item {
-    
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-subtitle {
@@ -354,6 +354,11 @@ font-family: "Roboto", sans-serif;
 
 .footer{
     background-color: #2e2f42;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+    
 }
 
 .footer-logo {
@@ -363,8 +368,14 @@ font-family: "Roboto", sans-serif;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5
-}
+        color: #4d5ae5;
+        gap: 16px;
+        padding: 100px 1169px 188px 156px;
+        max-width: 264px;
+       
+        
+
+    }
 
 .footer-logo-color {
     font-family: "Raleway", sans-serif;
@@ -374,6 +385,7 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+       
 }
 
 .footer-text {
@@ -383,4 +395,9 @@ font-family: "Roboto", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        display: flex;
+        
+      max-width: 264px;
+        
 }
+
