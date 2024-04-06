@@ -4,6 +4,11 @@ body{
     background-color: #ffff;
 }
 
+img {
+display: block;
+}
+
+
 h1,
 h2,
 h3,
@@ -149,10 +154,6 @@ background: #2e2f42;
 padding: 188px 0;
 }
 
-/* .hero-wrap{
-padding: 188px 0;
-
-} */
 
 .hero-title {
 font-family: "Roboto", sans-serif;
@@ -196,17 +197,34 @@ font-family: "Roboto", sans-serif;
 
 /*================FEATURES=============*/
 
-.Features {
+.features {
     padding-top: 120px;
     padding-bottom: 120px;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    
 }
 
 .features-list {
 display: flex;
-gap: 8px;
+gap: 24px;
+
 }
 
 .features-item {
+    width: calc((100% - 72px) / 4);
 
 }
 
@@ -217,7 +235,8 @@ gap: 8px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
+       
 }
 
 .features-item-text {
@@ -249,14 +268,15 @@ gap: 8px;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
        
 }
 
 
 .team-list {
     display: flex;
-    gap: 16px;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -291,6 +311,11 @@ gap: 8px;
         color: #434455;
 }
 
+.team-subtitle-text{
+padding: 32px 0;
+text-align: center;
+margin-bottom: 8px
+}
 
 
 /*===================================*/
@@ -298,6 +323,9 @@ gap: 8px;
 
 
 .portfolio {
+    padding: 120px 0 120px 0;
+    display: flex;
+
     
 }
 
@@ -310,14 +338,25 @@ font-family: "Roboto", sans-serif;
     text-transform: capitalize;
     text-align: center;
     color:#2e2f42;
-        padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
     
+    
+}
+
+.container-portfolio-list{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    display: flex;
+    border-top: none;
+    margin-bottom: 8px;
+    gap: 24px;
+
 }
 
 .portfolio-item {
@@ -349,14 +388,19 @@ font-family: "Roboto", sans-serif;
         padding: 32px 16px;
 }
 
+.portfolio-subtitle-text{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 
 
 .footer{
     background-color: #2e2f42;
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 100px 0;
     
     
 }
@@ -369,9 +413,10 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        gap: 16px;
-        padding: 100px 1169px 188px 156px;
+        padding-bottom:  16px;
         max-width: 264px;
+        display: inline-block;
+      margin-bottom: 16px;
        
         
 
@@ -396,8 +441,7 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         display: flex;
-        
-      max-width: 264px;
+        max-width: 264px;
         
 }
 
