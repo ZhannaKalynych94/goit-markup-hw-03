@@ -44,21 +44,29 @@ ul, ol{
 .container {
     width: 1158px;
     padding-left: 15px;
-    padding-right:15px ;
+    padding-right: 15px ;
   margin: 0 auto;
 }
-.header-container{
-    display: flex;   
+
+.header {
+border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+
 
 .header-navigation{
     display: flex;
+    align-items: center;
 }
-
-
 
 .header-contact-list {
     display: flex;
+    gap: 40px;
 }
 
 /*===========HEADER===============*/
@@ -71,6 +79,7 @@ ul, ol{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
         
 
 }
@@ -86,10 +95,12 @@ ul, ol{
 
 .header-menu-list{
     display: flex;
+    gap: 40px;
 }
 
-.header-contact-list{
+.container-header-contact-list{
     display: flex;
+
 }
 
 
@@ -100,6 +111,8 @@ ul, ol{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        display: block;
 }
 
 .header-menu-link:hover,
@@ -109,7 +122,9 @@ ul, ol{
 
 .header-contact{
     font-style: normal;
+    margin: 0 auto;
 }
+
 
 .header-contact-link{
 font-family: "Roboto", sans-serif;
@@ -131,7 +146,13 @@ font-family: "Roboto", sans-serif;
 /*================HERO==================*/
 .hero {
 background: #2e2f42;
+padding: 188px 0;
 }
+
+/* .hero-wrap{
+padding: 188px 0;
+
+} */
 
 .hero-title {
 font-family: "Roboto", sans-serif;
@@ -141,6 +162,10 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+   
 }
 
 .hero-order-btn {
@@ -152,6 +177,12 @@ font-family: "Roboto", sans-serif;
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+   display: block;
+   min-width: 169px;
+   height: 56px;
+       border: none;
+       margin: 0 auto;
 }
 .hero-order-btn:hover,
 .hero-order-btn:focus {
@@ -165,7 +196,10 @@ font-family: "Roboto", sans-serif;
 
 /*================FEATURES=============*/
 
-.Features {}
+.Features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-list {
 
