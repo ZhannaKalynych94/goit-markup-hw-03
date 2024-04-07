@@ -351,15 +351,14 @@ font-family: "Roboto", sans-serif;
   
 }
 
-.container-portfolio-list {
+
+
+.port-list-list{
+    width: calc((100% - 48px) / 3);
     display: flex;
     border-top: none;
     margin-bottom: 8px;
     gap: 24px;
-   
-}
-.port-list-list{
-    width: calc((100% - 48px) / 3);
 }
 
 
